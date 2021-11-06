@@ -8,25 +8,31 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-.error-image { 
+.image { 
   display: block;
   margin: 110px 380px 10px;
   max-width: 520px;
 }
 
 .dropdown {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   margin: 0px 430px 280px;
   width: 420px;
   text-align: center;
   font-size: 122px;
   font-weight: 400;
+  cursor: pointer;
+}
+
+.dropdown-header {
+  font-size: 122px;
+  font-weight: 400;
 }
 
 .dropdown-content {
-  display: none;
   /* position: absolute; */
+  display: none;
   width: 420px;
   margin-top: 22px;
 }
@@ -35,8 +41,6 @@ body {
   display: block;
   font-size: 15px;
   margin-bottom: -124px;
-
-
 }
 
 .footer {
