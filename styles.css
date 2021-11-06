@@ -15,7 +15,7 @@ body {
 }
 
 .dropdown {
-  /* position: relative; */
+  /* position: relative; неудачная попытка сделать всплывающий блок, который не будет сдвигать подвал вниз */
   display: inline-block;
   margin: 0px 430px 280px;
   width: 420px;
@@ -31,7 +31,7 @@ body {
 }
 
 .dropdown-content {
-  /* position: absolute; */
+  /* position: absolute; неудачная попытка сделать всплывающий блок, который не будет сдвигать подвал вниз */
   display: none;
   width: 420px;
   margin-top: 22px;
