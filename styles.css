@@ -11,7 +11,7 @@ body {
 .image { 
   display: block;
   margin: 110px 380px 10px;
-  max-width: 520px;
+  width: 520px;
 }
 
 .dropdown {
@@ -35,12 +35,14 @@ body {
   display: none;
   width: 420px;
   margin-top: 22px;
+
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   font-size: 15px;
   margin-bottom: -124px;
+
 }
 
 .footer {
