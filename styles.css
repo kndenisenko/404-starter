@@ -35,14 +35,12 @@ body {
   display: none;
   width: 420px;
   margin-top: 22px;
-
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   font-size: 15px;
   margin-bottom: -124px;
-
 }
 
 .footer {
